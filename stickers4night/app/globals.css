@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0b10;
+  --fg: #f1f5f9;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.grad-neon {
+  background: radial-gradient(80% 60% at 50% 40%, rgba(255,46,146,.25), rgba(0,245,160,.18), rgba(110,231,255,.15), transparent 70%);
+  filter: blur(40px);
+}
